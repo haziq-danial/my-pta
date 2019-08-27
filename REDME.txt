@@ -1,0 +1,10 @@
+1. Install node.js
+
+2.Install vue.js
+ - npm install -g @vue/cli
+
+3. cd to project ump-car-rental
+ - cd ump-car-rental
+
+4. run the project by command
+  - npm run serve

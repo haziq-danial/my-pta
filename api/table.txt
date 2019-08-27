@@ -1,0 +1,14 @@
+`id` int(11) NOT NULL,
+  `firstname` varchar(255) NOT NULL,
+  `lastname` varchar(255) NOT NULL,
+  `matric_no` varchar(8) NOT NULL,
+  `phone_no` varchar(12) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `acc_pwd` varchar(255) NOT NULL,
+  `date_of_birth` date NOT NULL,
+  `student_type` varchar(255) NOT NULL,
+  `id_no` varchar(20) NOT NULL,
+  `license_type` varchar(255) NOT NULL,
+  `license_expired` date NOT NULL
+
+  firstname,lastname,matric_no,phone_no,email,acc_pwd,date_of_birth,student_type,id_no,license_type,license_expired,
