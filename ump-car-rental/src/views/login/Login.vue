@@ -1,5 +1,5 @@
 <template>
-    <div class="red darken-3 login-register">
+    <div class="login-register">
         <v-container>
             <p 
             id="text-login" 
@@ -22,6 +22,8 @@ export default {
     font-size: 144px;
 }
 .login-register {
-    padding-bottom: 5%;
+    padding-top: 10%;
+    padding-bottom: 100%;
+    background-color: #C62828;
 }
 </style>

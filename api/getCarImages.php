@@ -13,7 +13,7 @@ function getCarImages($matric_no,$conn) {
         if ($count > 0) {
             $i = 0;
             while ($row = mysqli_fetch_assoc($result)) {
-                $img->src = 'http://localhost/PTA/images/car-img/'.$row['img_name'];
+                $img->src = 'http://localhost/haziq%20projects/PTA/images/car-img/'.$row['img_name'];
                 $carDATA = json_encode($img);
                 $car[$i] = $carDATA;
                 $i++;

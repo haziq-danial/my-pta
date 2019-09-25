@@ -10,7 +10,7 @@ function getHeaderImg($matric_no,$conn) {
     if (isset($result)) {
         if (mysqli_num_rows($result) == 1) {
             $member = mysqli_fetch_assoc($result);
-            $car_img->path = 'http://localhost/PTA/images/car-img/car-headers/'.$member['img_name'];
+            $car_img->path = 'http://localhost/haziq%20projects/PTA/images/car-img/car-headers/'.$member['img_name'];
             $carJSON = json_encode($car_img);
             print_r($carJSON);
         }
